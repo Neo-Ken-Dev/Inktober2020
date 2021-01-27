@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>New game</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://use.fontawesome.com/releases/v5.8.2/js/all.js" ></script>
+</head>
+
+<body>
+    <div id="container">  
+	
+		<div id="first-page">
+	
+			<h1 id="title"><span>Game 2019</span></h1> 
+        
+			<div id="accueil">
+				<p> A vous de jouer maintenant, voyons si vous avez bien suivi ce mois d'Octobre avec attention... Si j'ai bien dessiné, vous devriez avoir tous 100% !! 
+				</p>   
+				<img id="fond" src="images/inktoberfond.jpg">
+			</div>
+
+			<div class="switch-field">
+				<button onclick= "startEnglish()" id= "EN" class="search-txt">English</button>
+				<button onclick= "startFrench()" id= "FR" class="search-txt">Français</button>
+				<a class="game-btn" href="#"><i class="fas fa-play-circle"></i></a>
+			</div>	
+		
+		</div>
+    
+        <div id="containerGame">
+            <div id="bonneReponse"></div>
+            <div id="image-frame"></div>
+            <div id="mauvaiseReponse"></div>
+            <div id="response-frame" class="child-4"></div>
+        </div>
+		
+		<div id="intru">
+			<h1 id="title-intru"> Trouver l'image intru </h1>
+            <div onclick=   class="image"></div>
+            <div onclick=   class="image"></div>
+            <div onclick=   class="image"></div>
+            <div onclick=   class="image-intru"></div>
+        </div>
+		
+
+    </div>  
+
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
+
+    
